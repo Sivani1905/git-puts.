@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    background: linear-gradient(to top,  rgb(49, 42, 42));
+    background-position: center;
+}
+
+.body{
+
+background-color: brown;
+
+}
+header{
+    color: aqua;
+}
+.navbar1{
+    background-color: rgb(222, 247, 182);
+    margin: 1px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.navbar1 .icons{
+  float: right;
+  margin-top:px;
+  margin-left: 800px;
+}
+.navbar1 .icons .a{
+    width: 30px;
+    height: 20px; 
+    align-items: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+.navbar2{
+    
+    background-color: rgb(190, 253, 153);
+    border-radius: 2px;
+    
+
+}
+.navbar2 a{
+    margin: 15px;
+    padding: 20px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    
+
+}
+
+.navbar2 .menu{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+
+
+
+topimage{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    width: 250px;
+    height: 330px;
+    background: linear-gradient(to top, rgba(192, 99, 99, 0.8)50%, rgba(158, 93, 93, 0.8)50%);
+    position: absolute;
+    top: 230px;
+    left: 950px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(174, 180, 118);
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 10px;
+
+
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form input :focus{
+    outline: none;
+}
+
+::placeholder{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+button {
+    width: 240px;
+    height: 40px;
+    background:rgba(192, 99, 99, 0.8);
+    border: none;
+    margin-top: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.form .link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+
+
+}
+.form .link a{
+    text-decoration: none;
+    color: brown;
+
+}
+
+.liw{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.form .icons a{
+    align-items: center;
+    padding-bottom: 20px;
+    padding-bottom: 15px;
+    justify-items: center;
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+    text-decoration: dotted;
+    background-color:rgba(199, 224, 130, 0.959);
+    padding-bottom: -3px;
+    margin: 0;
+}
+
+.section1{
+
+margin: 2px;
+margin-left: 0px;
+background-color:rgba(199, 224, 130, 0.959);
+border: solid;
+border-radius: 10px;
+border-color: rgb(155, 181, 236) ;
+}
+
+.product{
+display:inline-block;
+padding: 23px;
+margin-left: 40px;
+
+}
+
+.product-grid2{
+    margin: 2px;
+background-color: rgba(199, 224, 130, 0.959);
+border: solid;
+border-radius: 10px;
+border-color: rgb(155, 181, 236) ;
+display: inline-flex;
+
+}
+
+
+.product-grid2 img{
+border: solid;
+border-radius: 5px;
+border-color: rgb(181, 199, 199);
+margin-right: 3px;
+height: 178px;
+width: 250px;
+}
+
+.Lorem{
+background-color: rgb(181, 199, 199);
+border: solid;
+border-radius: 5px;
+border-color: rgb(178, 236, 217);
+margin-left: 3px;
+}
+
+.footer{
+    background-color: rgb(147, 175, 94);
+    color: black;
+    text-align: center;
+ margin-bottom: 0px;
+ padding-bottom: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 7px;
+   
+    
+  }
+
+  .grid-container div {
+    text-align: center;
+    font-size: 18px;
+  }
+
+.carousel-control-prev-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e);
+    margin-top: 162% !important;
+}
+
+
+element.style {
+    margin-top: 382px;
+}
+.carousel-control-next-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+
+
+}
+
+
+
+
+
+
+

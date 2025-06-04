@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials Carousel with Hover Effect</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+           color: white;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .carousel-item:hover .overlay {
+            opacity: 1;
+        }
+        .icon-container {
+            font-size: 24px;
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="testimonialCarousel" class="carousel slide">
+        <div class="carousel-inner">
+           <div class="carousel-item d-flex flex-shrink-0 align-items-center justify-content-center bg-white">
+                <div class="card testimonial-card p-3 position-relative">
+                    <img src="img/portfolio-2.jpg" alt="Testimonial Image" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-container">
+                            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+</div>
+                   
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+}
+
+.fa {
+    color: #AB7442 !important;
+}
+.head1{
+    color: #AB7442;
+}
+.btn1{
+    background-color: #AB7442 !important;
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    background-color: #AB7442;
+    color: white;
+    text-decoration: none;
+}
+.btn3{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.n1{
+    color: #AB7442;
+}
+.readmore{
+    font-weight: 500;
+    color: #AB7442;
+    text-decoration: none;
+}
+.btn-outline-light{
+    margin-left: 10px;
+}
+a.btn.btn-link {
+    text-decoration: none;
+    color: white;
+}
+.list-inline {
+    padding-left: 400px !important;
+    list-style: none;
+    text-decoration: underline;
+}
+.team-item .team-social {
+    position: absolute;
+    width: 38px;
+    top: 50%;
+    left: -38px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    transition: .5s;
+}
+.team-item .team-social .btn {
+    color: var(--primary);
+    background: #FFFFFF;
+}
+.btn-square, .btn-sm-square, .btn-lg-square {
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    font-weight: normal !important;
+}
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+
+
+/* testimonials */
+.carousel-item {
+    padding: 20px;
+}
+.testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.carousel-indicators {
+    bottom: -30px;
+}
+
+.card.testimonial-card.p-3 {
+    width: 50%;
+}
+
+.image1{
+margin-left: 240px;
+}
+.name1{
+    text-align: center;
+}
+.roll1{
+  margin-left: 230px;  
+}
+
+/* testimonialend */
+
+@media screen and (max-width: 600px) {
+    body{
+        overflow:hidden;
+    }
+    .navbar{
+        margin-top:24px;
+    }
+}
